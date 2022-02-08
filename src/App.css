@@ -1,6 +1,8 @@
 .App {
   text-align: center;
   color: black;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
 }
 
 .App-footer {
@@ -10,6 +12,11 @@
 
 .App-header {
   margin-top: 80px;
-  margin-bottom: 20px;
-  font-size: 30px;
+  margin-bottom: 30px;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+}
+
+.App ul {
+  list-style: none;
 }
