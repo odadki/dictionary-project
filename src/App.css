@@ -13,8 +13,10 @@
 .App-header {
   margin-top: 80px;
   margin-bottom: 30px;
-  font-size: 40px;
+  font-size: 80px;
   font-family: "Poppins", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-style: italic;
 }
 
 .App ul {

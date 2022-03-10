@@ -1,7 +1,18 @@
 .Results section {
-  background: #f2f7ff;
+  background: #4c535e;
+  color: white;
   padding: 10px;
-  margin: 10px 500px;
-  border-radius: 8px;
-  border: solid 1px #97a8c1;
+  margin: 10px 520px;
+  border-radius: 30px;
+  border: solid 0.5px #97a8c1;
+  box-shadow: 50px 5px 50px rgb(0 0 0 / 5%);
+}
+
+.Phonetic a {
+  color: #ffe563;
+}
+
+.Phonetic a:hover {
+  color: white;
+  transition: 400ms;
 }

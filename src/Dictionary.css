@@ -1,7 +1,7 @@
 .Dictionary input {
   width: 30%;
   padding: 6px 4px;
-  border: 1px solid #97a8c1;
+  border: 1px solid black;
   box-shadow: 0 10px 10px rgb(0 0 0 / 10%);
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
