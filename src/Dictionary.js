@@ -43,7 +43,11 @@ export default function Dictionary() {
     <div className="Dictionary">
       <section>
         <form onSubmit={search}>
-          <input type="search" onChange={handleKeywordChange} />
+          <input
+            type="search"
+            placeholder="search"
+            onChange={handleKeywordChange}
+          />
         </form>
       </section>
       <br />
