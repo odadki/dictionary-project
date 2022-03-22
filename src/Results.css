@@ -1,18 +1,21 @@
 .Results section {
-  background: #4c535e;
-  color: white;
-  padding: 10px;
-  margin: 20px 500px;
-  border-radius: 20px;
-  border: solid 0.5px #97a8c1;
-  box-shadow: 50px 5px 50px rgb(0 0 0 / 5%);
-}
-
-.Phonetic a {
-  color: #ffe563;
+  margin: 0px auto;
 }
 
 .Phonetic a:hover {
   color: white;
   transition: 400ms;
+}
+
+@media (max-width: 1360px) {
+  .Results section {
+    background: none;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+  }
 }

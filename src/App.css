@@ -1,4 +1,5 @@
 .App {
+  display: block;
   text-align: center;
   color: black;
   background-color: white;
@@ -19,6 +20,13 @@
   font-family: "Poppins", sans-serif;
   font-family: "Playfair Display", serif;
   font-style: italic;
+}
+
+@media (max-width: 1360px) {
+  .App-header {
+    font-size: 58px;
+    margin-bottom: 2px;
+  }
 }
 
 .App ul {
