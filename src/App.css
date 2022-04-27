@@ -4,6 +4,11 @@
   color: black;
   background-color: white;
   font-family: "Poppins", sans-serif;
+  padding-left: 140px;
+  padding-right: 140px;
+
+  padding-top: 40px;
+  background-color: #dae5da;
 }
 
 .App-footer {
@@ -20,6 +25,7 @@
   font-family: "Poppins", sans-serif;
   font-family: "Playfair Display", serif;
   font-style: italic;
+  text-shadow: 2px 2px #ccc8d2;
 }
 
 @media (max-width: 1360px) {
@@ -31,4 +37,29 @@
 
 .App ul {
   list-style: none;
+}
+@media (min-width: 526px) and (max-width: 830px) {
+  .App {
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .App-header {
+    margin-top: 40px;
+    font-size: 52px;
+  }
+}
+@media (min-width: 200px) and (max-width: 525px) {
+  .App {
+    padding-top: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14px;
+  }
+
+  .App-header {
+    margin-top: 28px;
+    font-size: 42px;
+  }
 }

@@ -1,5 +1,12 @@
 .Results section {
   margin: 0px auto;
+  margin-right: 80px;
+  margin-left: 80px;
+  background-color: white !important;
+  border: 0.5px solid black !important;
+  border-radius: 5px;
+  margin-bottom: 10px !important;
+  padding: 10px 10px;
 }
 
 .Phonetic a:hover {
@@ -18,4 +25,7 @@
     box-shadow: none;
     text-align: center;
   }
+}
+
+@media (min-width: 526px) and (max-width: 830px) {
 }
